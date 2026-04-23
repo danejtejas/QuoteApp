@@ -25,14 +25,11 @@ jobs:
       - name: Show Xcode Version
         run: xcodebuild -version
         
-      - name: List Simulators
-        run: xcrun simctl list devices
-        
       - name: Resolve Swift Packages
         run: xcodebuild -resolvePackageDependencies
 
       - name: Build Application
         run: xcodebuild clean build \
             -scheme QuoteApp \
-            -destination 'generic/platform=iOS Simulator'
+            -destination 'platform=iOS Simulator,name=iPhone 16 Pro'
     
