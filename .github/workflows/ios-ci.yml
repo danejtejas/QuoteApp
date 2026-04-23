@@ -24,7 +24,10 @@ jobs:
 
       - name: Show Xcode Version
         run: xcodebuild -version
-
+        
+      - name: List Simulators
+        run: xcrun simctl list devices
+        
       - name: Resolve Swift Packages
         run: xcodebuild -resolvePackageDependencies
 
