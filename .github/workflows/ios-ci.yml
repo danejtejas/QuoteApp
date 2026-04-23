@@ -1,36 +1,36 @@
 name: iOS CI
 
 on:
-   push:
-     branches:
+  push:
+    branches:
       - main
       - develop
-      
-   pull_request:
-      branches:
-       - main
-       - develop
- jobs:
-    build-and-test:
+
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  build-and-test:
     runs-on: macos-latest
-    
+
     steps:
-     - name: Checkout Code
-     users: action/checkout@4
-     
-     - name: Select xcode
-      run:  sudo xcode-Select -switch /Applications/Xcode.Applications
-         
-    -name: show Xcdoe version
-     run: xcodebuild -version
-     
-    - name: Resolve Swift packages
-        run : xcodebuild -resovePackageDependencies
-        
-    - name: Build Applications
-        run : xcodebuild clean build \
-              -scheme QuoteApp \
-              -destination 'platform=iOS Simulator,name=iPhone 15'\
-              CODE_SIGNIG_ALLOWED=NO
-    
-       
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -switch /Applications/Xcode.app
+
+      - name: Show Xcode Version
+        run: xcodebuild -version
+
+      - name: Resolve Swift Packages
+        run: xcodebuild -resolvePackageDependencies
+
+      - name: Build Application
+        run: |
+          xcodebuild clean build \
+          -scheme QuoteApp \
+          -destination 'platform=iOS Simulator,name=iPhone 15' \
+          CODE_SIGNING_ALLOWED=NO
