@@ -29,6 +29,7 @@ jobs:
         run: xcodebuild -resolvePackageDependencies
 
       - name: Build Application
-        run: |
-          xcodebuild clean build \
-          -scheme QuoteApp
+        run: xcodebuild clean build \
+            -scheme QuoteApp \
+            -destination 'generic/platform=iOS Simulator'
+    
