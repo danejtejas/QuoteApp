@@ -9,7 +9,6 @@ on:
    pull_request:
        -main
        -develop
- 
  jobs:
     build-and-test:
     runs-on: macos-latest
@@ -18,8 +17,8 @@ on:
      -name: Checkout Code
      users: action/checkout@4
      
-     -name : Select Xcode
-         run:  sudo xcode-Select -switch /Applications/Xcode.Applications
+     -name: Select xcode
+      run:  sudo xcode-Select -switch /Applications/Xcode.Applications
          
     -name: show Xcdoe version
      run: xcodebuild -version
