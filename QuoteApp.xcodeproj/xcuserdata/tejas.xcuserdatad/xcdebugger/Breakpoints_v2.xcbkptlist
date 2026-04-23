@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BFDD13D2-DEF6-4ACD-91A0-120DF4112AE6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A56AA6A2-8886-4822-83F7-4ADD581A4451"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuoteApp/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "publisherSetup()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38ED22F2-F5FB-479D-BB77-2B635FF1FF0B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuoteApp/Post/RootView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "38ED22F2-F5FB-479D-BB77-2B635FF1FF0B - 9d8a79f6f355722"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (QuoteApp.AppCoodinator.Screen) -&gt; SwiftUI._ConditionalContent&lt;QuoteApp.PostListView, QuoteApp.ContentView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationDestination&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_1_0: Swift.Hashable, &#x3c4;_1_1: SwiftUI.View&gt;(for: &#x3c4;_1_0.Type, destination: (&#x3c4;_1_0) -&gt; &#x3c4;_1_1) -&gt; some&gt;&gt;.0 in QuoteApp.RootView.body.getter : some"
+                  moduleName = "QuoteApp.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Desktop/QuoteApp/QuoteApp/Post/RootView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24">
+               </Location>
+               <Location
+                  uuid = "38ED22F2-F5FB-479D-BB77-2B635FF1FF0B - 9d8a79f6f355722"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (QuoteApp.AppCoodinator.Screen) -&gt; SwiftUI._ConditionalContent&lt;QuoteApp.PostListView, QuoteApp.ContentView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationDestination&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_1_0: Swift.Hashable, &#x3c4;_1_1: SwiftUI.View&gt;(for: &#x3c4;_1_0.Type, destination: (&#x3c4;_1_0) -&gt; &#x3c4;_1_1) -&gt; some&gt;&gt;.0 in QuoteApp.RootView.body.getter : some"
+                  moduleName = "QuoteApp.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Desktop/QuoteApp/QuoteApp/Post/RootView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F320290-E36F-426F-86FD-E0172E49151E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuoteAppTests/QuoteAppTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "testFetchUserErrorResturnError()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05A79F98-3F1D-46DB-BD21-92C2D06B4079"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuoteAppTests/QuoteAppTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "testFetchUserErrorResturnError()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "05A79F98-3F1D-46DB-BD21-92C2D06B4079 - 4878fa916c8c63e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuoteAppTests.QuoteAppTests.testFetchUserErrorResturnError() async throws -&gt; ()"
+                  moduleName = "QuoteAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Desktop/QuoteApp/QuoteAppTests/QuoteAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80">
+               </Location>
+               <Location
+                  uuid = "05A79F98-3F1D-46DB-BD21-92C2D06B4079 - 9508b4b8ad5a14f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for QuoteAppTests.QuoteAppTests.testFetchUserErrorResturnError() async throws -&gt; ()"
+                  moduleName = "QuoteAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Desktop/QuoteApp/QuoteAppTests/QuoteAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80">
+               </Location>
+               <Location
+                  uuid = "05A79F98-3F1D-46DB-BD21-92C2D06B4079 - 7f530917e0578fd8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for QuoteAppTests.QuoteAppTests.testFetchUserErrorResturnError() async throws -&gt; ()"
+                  moduleName = "QuoteAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Desktop/QuoteApp/@__swiftmacro_13QuoteAppTests0024QuoteAppTestsswift_ynAHffMX80_12_6expectfMf_.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "3"
+                  endingLineNumber = "3">
+               </Location>
+               <Location
+                  uuid = "05A79F98-3F1D-46DB-BD21-92C2D06B4079 - 7eebb6b656214994"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for QuoteAppTests.QuoteAppTests.testFetchUserErrorResturnError() async throws -&gt; ()"
+                  moduleName = "QuoteAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Desktop/QuoteApp/QuoteAppTests/QuoteAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F10F4CC1-9F51-482F-9643-48795820CC2F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuoteAppTests/QuoteAppTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "startLoading()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7443A1B0-54F1-45B7-AEEC-F110C36312B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuoteAppTests/QuoteAppTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "startLoading()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7443A1B0-54F1-45B7-AEEC-F110C36312B6 - 16d1d78a03a03445"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuoteAppTests.MockURLProtocol.startLoading() -&gt; ()"
+                  moduleName = "QuoteAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Desktop/QuoteApp/QuoteAppTests/QuoteAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "137"
+                  endingLineNumber = "137">
+               </Location>
+               <Location
+                  uuid = "7443A1B0-54F1-45B7-AEEC-F110C36312B6 - 16d1d78a03a03445"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QuoteAppTests.MockURLProtocol.startLoading() -&gt; ()"
+                  moduleName = "QuoteAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tejas/Desktop/QuoteApp/QuoteAppTests/QuoteAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "137"
+                  endingLineNumber = "137">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4143899F-D580-4AF3-BF80-CD14FF2AA565"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QuoteAppTests/QuoteAppTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "startLoading()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

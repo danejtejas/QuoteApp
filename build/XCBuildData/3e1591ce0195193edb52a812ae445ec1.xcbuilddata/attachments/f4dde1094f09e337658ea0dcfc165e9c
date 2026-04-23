@@ -1,0 +1,71 @@
+{
+  "" : {
+    "const-values" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/QuoteApp-primary.swiftconstvalues",
+    "dependencies" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/QuoteApp-primary.d",
+    "diagnostics" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/QuoteApp-primary.dia",
+    "emit-module-dependencies" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/QuoteApp-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/QuoteApp-primary-emit-module.dia",
+    "pch" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/QuoteApp-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/QuoteApp-primary.swiftdeps"
+  },
+  "/Users/tejas/Desktop/QuoteApp/QuoteApp/ContentView.swift" : {
+    "index-unit-output-path" : "/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/tejas/Desktop/QuoteApp/QuoteApp/Coodinator.swift" : {
+    "index-unit-output-path" : "/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/Coodinator.o",
+    "llvm-bc" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/Coodinator.bc",
+    "object" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/Coodinator.o"
+  },
+  "/Users/tejas/Desktop/QuoteApp/QuoteApp/ImageConstance.swift" : {
+    "index-unit-output-path" : "/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/ImageConstance.o",
+    "llvm-bc" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/ImageConstance.bc",
+    "object" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/ImageConstance.o"
+  },
+  "/Users/tejas/Desktop/QuoteApp/QuoteApp/LoginView.swift" : {
+    "index-unit-output-path" : "/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/LoginView.o",
+    "llvm-bc" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/LoginView.bc",
+    "object" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/LoginView.o"
+  },
+  "/Users/tejas/Desktop/QuoteApp/QuoteApp/Post/PostListView.swift" : {
+    "index-unit-output-path" : "/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/PostListView.o",
+    "llvm-bc" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/PostListView.bc",
+    "object" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/PostListView.o"
+  },
+  "/Users/tejas/Desktop/QuoteApp/QuoteApp/Post/PostViewModel.swift" : {
+    "index-unit-output-path" : "/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/PostViewModel.o",
+    "llvm-bc" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/PostViewModel.bc",
+    "object" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/PostViewModel.o"
+  },
+  "/Users/tejas/Desktop/QuoteApp/QuoteApp/Post/RootView.swift" : {
+    "index-unit-output-path" : "/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/RootView.o",
+    "llvm-bc" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/RootView.bc",
+    "object" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/RootView.o"
+  },
+  "/Users/tejas/Desktop/QuoteApp/QuoteApp/QuoteAppApp.swift" : {
+    "index-unit-output-path" : "/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/QuoteAppApp.o",
+    "llvm-bc" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/QuoteAppApp.bc",
+    "object" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/QuoteAppApp.o"
+  },
+  "/Users/tejas/Desktop/QuoteApp/QuoteApp/TestView.swift" : {
+    "index-unit-output-path" : "/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/TestView.o",
+    "llvm-bc" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/TestView.bc",
+    "object" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/TestView.o"
+  },
+  "/Users/tejas/Desktop/QuoteApp/QuoteApp/Untitled.swift" : {
+    "index-unit-output-path" : "/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/Untitled.o",
+    "llvm-bc" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/Untitled.bc",
+    "object" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/Untitled.o"
+  },
+  "/Users/tejas/Desktop/QuoteApp/QuoteApp/WelcomeQuoteView.swift" : {
+    "index-unit-output-path" : "/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/WelcomeQuoteView.o",
+    "llvm-bc" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/WelcomeQuoteView.bc",
+    "object" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/WelcomeQuoteView.o"
+  },
+  "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/tejas/Desktop/QuoteApp/build/QuoteApp.build/Release-iphoneos/QuoteApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

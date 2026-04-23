@@ -6,11 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		96C64DD42F98D416003A8181 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96DEF4722F9358CF0043EC0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96DEF4792F9358CF0043EC0E;
+			remoteInfo = QuoteApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		96C64DD02F98D416003A8181 /* QuoteAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DEF47A2F9358CF0043EC0E /* QuoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		96C64DD12F98D416003A8181 /* QuoteAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QuoteAppTests;
+			sourceTree = "<group>";
+		};
 		96DEF47C2F9358CF0043EC0E /* QuoteApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = QuoteApp;
@@ -19,6 +35,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		96C64DCD2F98D416003A8181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96DEF4772F9358CF0043EC0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				96DEF47C2F9358CF0043EC0E /* QuoteApp */,
+				96C64DD12F98D416003A8181 /* QuoteAppTests */,
 				96DEF47B2F9358CF0043EC0E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				96DEF47A2F9358CF0043EC0E /* QuoteApp.app */,
+				96C64DD02F98D416003A8181 /* QuoteAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +73,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		96C64DCF2F98D416003A8181 /* QuoteAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C64DD62F98D416003A8181 /* Build configuration list for PBXNativeTarget "QuoteAppTests" */;
+			buildPhases = (
+				96C64DCC2F98D416003A8181 /* Sources */,
+				96C64DCD2F98D416003A8181 /* Frameworks */,
+				96C64DCE2F98D416003A8181 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96C64DD52F98D416003A8181 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				96C64DD12F98D416003A8181 /* QuoteAppTests */,
+			);
+			name = QuoteAppTests;
+			packageProductDependencies = (
+			);
+			productName = QuoteAppTests;
+			productReference = 96C64DD02F98D416003A8181 /* QuoteAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		96DEF4792F9358CF0043EC0E /* QuoteApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96DEF4852F9358D00043EC0E /* Build configuration list for PBXNativeTarget "QuoteApp" */;
@@ -80,6 +128,10 @@
 				LastSwiftUpdateCheck = 2640;
 				LastUpgradeCheck = 2640;
 				TargetAttributes = {
+					96C64DCF2F98D416003A8181 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = 96DEF4792F9358CF0043EC0E;
+					};
 					96DEF4792F9358CF0043EC0E = {
 						CreatedOnToolsVersion = 26.4;
 					};
@@ -100,11 +152,19 @@
 			projectRoot = "";
 			targets = (
 				96DEF4792F9358CF0043EC0E /* QuoteApp */,
+				96C64DCF2F98D416003A8181 /* QuoteAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		96C64DCE2F98D416003A8181 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96DEF4782F9358CF0043EC0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +175,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		96C64DCC2F98D416003A8181 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96DEF4762F9358CF0043EC0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +191,55 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		96C64DD52F98D416003A8181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96DEF4792F9358CF0043EC0E /* QuoteApp */;
+			targetProxy = 96C64DD42F98D416003A8181 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		96C64DD72F98D416003A8181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hi.QuoteAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuoteApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuoteApp";
+			};
+			name = Debug;
+		};
+		96C64DD82F98D416003A8181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hi.QuoteAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuoteApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuoteApp";
+			};
+			name = Release;
+		};
 		96DEF4832F9358D00043EC0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -269,8 +384,9 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -300,8 +416,9 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -309,6 +426,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		96C64DD62F98D416003A8181 /* Build configuration list for PBXNativeTarget "QuoteAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C64DD72F98D416003A8181 /* Debug */,
+				96C64DD82F98D416003A8181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		96DEF4752F9358CF0043EC0E /* Build configuration list for PBXProject "QuoteApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
