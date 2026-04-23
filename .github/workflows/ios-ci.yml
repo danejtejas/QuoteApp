@@ -32,4 +32,4 @@ jobs:
         run: |
           xcodebuild clean build \
           -scheme QuoteApp \
-          -destination 'platform=iOS Simulator,name=iPhone 15'
+          -destination 'platform=iOS Simulator,name=iPhone 17'
