@@ -1,36 +1,36 @@
-name: iOS CI
+name: iOS CI with SonarQube
 
 on:
+  pull_request:
   push:
     branches:
       - main
-      - develop
-
-  pull_request:
-    branches:
-      - main
-      - develop
 
 jobs:
-  build-and-test:
-    runs-on: macos-latest
+ build:
+   runs-on: macos-latest
 
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
+   steps:
+   - uses: actions/checkout@v4
+     with:
+       fetch-depth: 0
 
-      - name: Select Xcode
-        run: sudo xcode-select -switch /Applications/Xcode.app
+   - name: Select Xcode
+     run: sudo xcode-select -switch /Applications/Xcode.app
 
-      - name: Show Xcode Version
-        run: xcodebuild -version
-        
-      - name: Resolve Swift Packages
-        run: xcodebuild -resolvePackageDependencies
+   - name: Install Dependencies
+     run: pod install
 
-      - name: Build Application
-        run: |
-            xcodebuild clean build \
-            -scheme QuoteApp \
-            -destination 'platform=iOS Simulator,name=iPhone 16 Pro' 
-    
+   - name: Run Tests with Coverage
+     run: |
+       xcodebuild test \
+       -workspace QuoteApp.xcworkspace \
+       -scheme QuoteApp \
+       -destination 'platform=iOS Simulator,name=iPhone 16' \
+       -enableCodeCoverage YES
+
+   - name: SonarQube Scan
+     uses: SonarSource/sonarqube-scan-action@master
+     env:
+       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+       SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
